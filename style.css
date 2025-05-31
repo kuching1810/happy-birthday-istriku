@@ -1,0 +1,84 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #fce4ec; /* Warna latar belakang lembut */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    width: 90%;
+}
+
+header h1 {
+    color: #e91e63; /* Warna utama yang cerah */
+    margin-bottom: 20px;
+}
+
+.greeting p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.special-message {
+    background-color: #ffebee; /* Latar belakang sedikit berbeda */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.special-message h2 {
+    color: #d81b60;
+    margin-top: 0;
+}
+
+#specialText {
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.wishes h2 {
+    color: #c2185b;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.wishes ul {
+    list-style: none;
+    padding: 0;
+}
+
+.wishes li {
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+footer {
+    margin-top: 20px;
+    color: #777;
+    font-size: 0.9em;
+}
+
+.animate-text {
+    animation: fadeIn 2s ease-in-out infinite alternate;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+img {
+    width: 30%;
+    height: 15%;
+}
